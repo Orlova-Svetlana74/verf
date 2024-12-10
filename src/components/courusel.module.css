@@ -1,0 +1,124 @@
+.carousel {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  /* width: 800px; */
+  margin: auto;
+  overflow: hidden;
+}
+.carousel_block {
+  padding-top: 50px;
+  padding-bottom: 50px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 20px;
+  border: 2px solid #696b6b; /* Цвет рамки */
+  border-radius: 10px; /* Скругление углов */
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Тень */
+  /* padding: 20px; */
+  background-color: #f8f9fa; /* Цвет фона */
+}
+
+.carousel_images {
+  width: 100%;
+  height: 400px; /* Высота карусели */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-shadow: inset 0 -3em 3em rgba(0, 0, 0, 0.1), 0 0 0 2px rgb(255, 255, 255),
+    0.3em 0.3em 1em rgba(0, 0, 0, 0.3);
+  border-radius: 25px;
+  overflow: hidden;
+  margin: 0 20px; /* Отступы между кнопками и изображением */
+  object-fit: cover
+}
+
+.carousel-images img {
+  width: 100%;
+  height: auto;
+}
+
+.carousel-button {
+  background-color: rgba(0, 0, 0, 0.5);
+  color: white;
+  border: none;
+  padding: 10px;
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  z-index: 1;
+  font-size: 50px;
+}
+
+.ul {
+  display: flex;
+  justify-content: start;
+  flex-wrap: wrap;
+  width: 400px;
+  height: 300px;
+  padding-left: 20px; /* Отступ для списка */
+}
+
+.carousel_button_left {
+  left: 10px;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  background-color: rgba(255, 255, 255, 0.8); /* Полупрозрачный фон */
+  border: none;
+  border-radius: 50%;
+  cursor: pointer;
+  padding: 10px;
+  font-size: 24px; /* Размер стрелок */
+  transition: background-color 0.3s; /* Плавный переход цвета */
+}
+
+.carousel_button_right {
+  right: 10px;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  background-color: rgba(255, 255, 255, 0.8); /* Полупрозрачный фон */
+  border: none;
+  border-radius: 50%;
+  cursor: pointer;
+  padding: 10px;
+  font-size: 24px; /* Размер стрелок */
+  transition: background-color 0.3s; /* Плавный переход цвета */
+}
+
+.carousel_button_right:hover {
+  background-color: rgba(255, 255, 255, 1);
+}
+
+.carousel-button:hover {
+  background-color: rgba(0, 0, 0, 0.8);
+}
+.imgstyl {
+  /* width: 400px;
+  height: 350px; */
+  max-width: 100%;
+  max-height: 100%;
+  box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.5);
+  border-radius: 4px;
+  transition: transform 0.5s ease; /* Плавный переход */
+}
+.title_content {
+ 
+  text-align: center;
+  font-size: 24px;
+  font-weight: bold;
+  color: #696b6b; /* Цвет заголовка */  
+}
+.info {
+  /* text-align: center; */
+  margin-top: 15px;
+  font-size: 18px;
+  color: #333; /* Цвет текста */
+  /* list-style-type: none; Убираем маркеры списка */
+  padding: 0;
+  margin-top: 10px
+}

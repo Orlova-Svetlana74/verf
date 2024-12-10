@@ -1,0 +1,50 @@
+.footer {
+  margin-bottom: 10px;
+}
+.services {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+}
+.logo {
+  width: 100px;
+  height: 100px;
+}
+.title_footer {
+  font-family: 'Croco Tears';
+  font-style: italic;
+  font-weight: 200px;
+  font-size: large;
+  line-height: 17px;
+  color: #f3eeee;
+  text-decoration: none;
+  transition: all 1s ease; /* Время изменения цвета */
+}
+.vk {
+  padding-left: 10px;
+  padding-right: 10px;
+}
+.img_vk {
+  width: 30px;
+  height: 30px;
+}
+
+.title_footer:hover {
+  color: #fa320a; /* Меняем цвет ссылки */
+}
+
+.img_vk:hover {
+  transform: scale(1.3);
+}
+.title_info {
+  font-family: 'Croco Tears';
+  font-style: italic;
+  font-weight: 200px;
+  font-size: large;
+  line-height: 17px;
+  color: #f3eeee;
+  text-decoration: none;
+}
+
+
