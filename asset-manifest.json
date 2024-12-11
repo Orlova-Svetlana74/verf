@@ -1,0 +1,27 @@
+{
+  "files": {
+    "main.css": "/verf/static/css/main.389616be.css",
+    "main.js": "/verf/static/js/main.e850529f.js",
+    "static/js/453.d946162c.chunk.js": "/verf/static/js/453.d946162c.chunk.js",
+    "static/media/verf_obzor.JPG": "/verf/static/media/verf_obzor.e17b351311c75ef1661f.JPG",
+    "static/media/argazi.JPG": "/verf/static/media/argazi.9abce7a9a1f2c66be706.JPG",
+    "static/media/obgiy_vid_chelovek.png": "/verf/static/media/obgiy_vid_chelovek.f03703559ba7bbdb43bc.png",
+    "static/media/anapolis.jpg": "/verf/static/media/anapolis.8ddb31157932da6ce47a.jpg",
+    "static/media/penobscot.jpg": "/verf/static/media/penobscot.e24ac11ce0752eca85c8.jpg",
+    "static/media/lodke-dali-2.jpg": "/verf/static/media/lodke-dali-2.80444983e76bffe5aebd.jpg",
+    "static/media/Caveat-Medium.ttf": "/verf/static/media/Caveat-Medium.a661a40777402bb8c6ff.ttf",
+    "static/media/rabota_verf.JPG": "/verf/static/media/rabota_verf.898bfd6853052cd1cabe.JPG",
+    "static/media/banki_shvertbot.JPG": "/verf/static/media/banki_shvertbot.b00e13ee66621666a756.JPG",
+    "static/media/logo.jpg": "/verf/static/media/logo.67d461874b1e1bcb4c24.jpg",
+    "static/media/telegram_2111646.png": "/verf/static/media/telegram_2111646.e9722f26cc228e817986.png",
+    "static/media/vk_2111765.png": "/verf/static/media/vk_2111765.a3958c41078196022d54.png",
+    "index.html": "/verf/index.html",
+    "main.389616be.css.map": "/verf/static/css/main.389616be.css.map",
+    "main.e850529f.js.map": "/verf/static/js/main.e850529f.js.map",
+    "453.d946162c.chunk.js.map": "/verf/static/js/453.d946162c.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.389616be.css",
+    "static/js/main.e850529f.js"
+  ]
+}
